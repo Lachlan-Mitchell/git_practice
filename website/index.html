@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git Flow</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="script" href="scipt.js">
+</head>
+<body>
+  <header class="center">
+    <h1>Git Flow</h1>
+    <h3>Making Git look easy</h3>
+  </header>
+  <main>
+    <h2>The Clone Wars! (adding code to your local computer)</h2>
+    <p>Go to the repo on git hub, copy the link for cloning and inside your git bash terminal use <span>git clone</span> followed by the url you copied from GitHub.</p>
+    <br>
+    <h2>Setting up a branch</h2>
+    <p>Navigate using <span>cd</span> (followed by the directory(folder) you want to move to).
+       You can also use <span>cd .</span> to move down through the folder and <span>cd ..</span> to move up.</p>
+    <p>After locating the correct directory you can use <span>git brach</span> followed by the branch name you would like to create your own branch. The benefits of having a seperate branch allows you to test and create new code  without impacting the main branch. The main branch should be (and is most commonly used) for the live product code</p>
+    <br>
+    <h2>The process of editing your branch</h2>
+    <p>Before you run straight into the thick of it, ensure that you have used <span>git merge main.</span> This ensures that your branch is uptodate with the main branch. Now you may edit the code to your hearts content without worry of damaging anything and knowing that you are editing code that is up to date. Once you are ready to commit your changesyou will: </p>
+    <br>
+    <br>
+    <ol>
+      <li><span>git add .</span> this will addd all changes to the staging phase, ready to be commited.</li>
+      <li><span>git commit -m "messgae goes here"</span>will commit your changes to the branch(like saving them)</li>
+      <li><span>git push</span>Will add any commited changes to the branch</li>
+      <li><span>Create a pull request on GitHub</span> this is then reviewed and then can be added to the main branch if approved</li>
+    </ol>
+    <br>
+    <br>
+    <h2>Additonal helpers</h2>
+    <p>This will take you to all the<a href="https://git-scm.com/docs">git commands</a></p>
+    <p>You may also just type in <span>git</span> to the bash terminal</p>
+    <p>This is a list of all the <a href="https://www.freecodecamp.org/news/command-line-commands-cli-tutorial/">terminal commands</a></p>
+  </main>
+</body>
+</html>
